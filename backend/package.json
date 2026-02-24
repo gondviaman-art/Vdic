@@ -1,17 +1,1 @@
-{  
-  "name": "school-erp-backend",  
-  "version": "1.0.0",  
-  "description": "Backend for School ERP System",  
-  "main": "index.js",  
-  "scripts": {    
-    "start": "node index.js",    
-    "test": "echo 'Error: no test specified' && exit 1"  
-  },  
-  "author": "gondviaman-art",  
-  "license": "ISC",  
-  "dependencies": {    
-    "express": "^4.17.1",    
-    "mongoose": "^5.10.9",    
-    "dotenv": "^8.2.0"  
-  }  
-}
+{"name": "school-erp-system","version": "1.0.0","description": "A backend for School ERP System","main": "index.js","scripts": {"start": "node index.js","test": "echo \"Error: no test specified\" && exit 1"},"dependencies": {"express": "^4.17.1","mongoose": "^5.10.9","dotenv": "^8.2.0","cors": "^2.8.5","body-parser": "^1.19.0","express-validator": "^6.12.2","jsonwebtoken": "^8.5.1"},"devDependencies": {"nodemon": "^2.0.4"},"author": "gondviaman-art","license": "ISC"}
